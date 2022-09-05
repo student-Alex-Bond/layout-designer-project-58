@@ -5,3 +5,47 @@
 
   color: #fff;
 }
+
+:root {
+  --white: #fff;
+  --translucent-white: #d7ccc0;
+  --translucent-dark: #908d8b;
+  --light: #f5f4f0;
+  --main: #fe8a02;
+  --main-dark: #42413c;
+  --dark: #2a2626;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+body {
+  color: #2a2626;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Neucha", cursive;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
