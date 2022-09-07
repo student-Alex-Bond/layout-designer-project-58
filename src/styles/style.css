@@ -108,11 +108,56 @@ main > section {
   position: relative;
 
   text-align: center;
+
+  background-color: var(--white);
 }
 
 iframe {
   position: relative;
   bottom: -100px;
 
+  z-index: 2;
+
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 100px 0;
+
+  background-color: var(--translucent-dark);
+}
+
+.navigation p {
+  font-weight: normal;
+}
+
+.navigation a {
+  display: block;
+  box-sizing: border-box;
+  width: 350px;
+  padding: 24px;
+
+  text-align: left;
+
+  background-color: transparent;
+}
+
+.number {
+  padding-bottom: 40px;
+
+  color: var(--main-dark);
+
+  font-size: 64px;
+  font-family: Neucha, cursive;
+  line-height: 1;
+}
+
+.title {
+  margin: 0;
+
+  font-size: 52px;
+  font-family: Neucha, cursive;
 }
