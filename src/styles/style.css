@@ -68,7 +68,7 @@ body::before {
   height: 100%;
 
   background-image: url("images/background.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   opacity: 0.1;
 
@@ -160,4 +160,57 @@ iframe {
 
   font-size: 52px;
   font-family: Neucha, cursive;
+}
+
+.ikea-effect {
+  padding: 100px 0;
+
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.ikea-effect-title {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+
+  column-span: all;
+
+  background-color: var(--brown);
+}
+
+.ikea-effect-text {
+  margin-top: 0;
+
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
+.ikea-effect-subtitle {
+  margin: 0;
+
+  color: var(--translucent-dark);
+  font-weight: 400;
+  font-size: 24px;
+  font-family: Neucha, sans-serif;
+}
+
+.column {
+  text-align: left;
+}
+
+.ikea-effect-inscription {
+  color: #2a2626;
+  font-weight: 400;
+  font-size: 60px;
+  font-family: Neucha, sans-serif;
+}
+
+.ikea-effect-paragraph {
+  font-weight: 400;
+  font-size: 34px;
+  font-family: Neucha, sans-serif;
 }
