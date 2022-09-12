@@ -163,7 +163,8 @@ iframe {
 }
 
 #ikea-effect,
-#premature-optimization {
+#premature-optimization,
+#distortion-of-novelty {
   padding: 100px 0;
 
   column-count: 2;
@@ -171,20 +172,23 @@ iframe {
 }
 
 .ikea-effects-title,
-.premature-optimization-title {
+.premature-optimization-title,
+.distortion-of-novelty-title {
+  padding-left: 16px;
+
   color: var(--white);
   font-weight: 700;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   text-align: left;
-
   column-span: all;
 
   background-color: var(--brown);
 }
 
 .ikea-effects-text,
-.premature-optimization-text {
+.premature-optimization-text,
+.distortion-of-novelty-text {
   margin-top: 0;
 
   font-size: 16px;
@@ -193,7 +197,8 @@ iframe {
 }
 
 .ikea-effects-subtitle,
-.premature-optimization-subtitle {
+.premature-optimization-subtitle,
+.distortion-of-novelty-subtitle {
   margin: 0;
 
   color: var(--translucent-dark);
@@ -207,14 +212,16 @@ iframe {
 }
 
 .ikea-effects-inscription,
-.premature-optimization-inscription {
+.premature-optimization-inscription,
+.distortion-of-novelty-inscription {
   color: #2a2626;
   font-weight: 400;
   font-size: 60px;
   font-family: Neucha, sans-serif;
 }
 
-.ikea-effects-paragraph {
+.ikea-effects-paragraph,
+.distortion-of-novelty-paragraph {
   font-weight: 400;
   font-size: 34px;
   font-family: Neucha, sans-serif;
