@@ -64,7 +64,7 @@ body::before {
   top: 0;
   left: 0;
 
-  width: 100%;
+  width: 100vw;
   height: 100%;
 
   background-image: url("images/background.png");
@@ -162,14 +162,16 @@ iframe {
   font-family: Neucha, cursive;
 }
 
-.ikea-effect {
+#ikea-effect,
+#premature-optimization {
   padding: 100px 0;
 
   column-count: 2;
   column-gap: 30px;
 }
 
-.ikea-effect-title {
+.ikea-effects-title,
+.premature-optimization-title {
   color: var(--white);
   font-weight: 700;
   font-size: 14px;
@@ -181,7 +183,8 @@ iframe {
   background-color: var(--brown);
 }
 
-.ikea-effect-text {
+.ikea-effects-text,
+.premature-optimization-text {
   margin-top: 0;
 
   font-size: 16px;
@@ -189,7 +192,8 @@ iframe {
   text-align: left;
 }
 
-.ikea-effect-subtitle {
+.ikea-effects-subtitle,
+.premature-optimization-subtitle {
   margin: 0;
 
   color: var(--translucent-dark);
@@ -202,15 +206,28 @@ iframe {
   text-align: left;
 }
 
-.ikea-effect-inscription {
+.ikea-effects-inscription,
+.premature-optimization-inscription {
   color: #2a2626;
   font-weight: 400;
   font-size: 60px;
   font-family: Neucha, sans-serif;
 }
 
-.ikea-effect-paragraph {
+.ikea-effects-paragraph {
   font-weight: 400;
   font-size: 34px;
   font-family: Neucha, sans-serif;
+}
+
+.premature-optimization-title {
+
+  color: var(--brown);
+
+  background-color: var(--white);
+}
+
+#premature-optimization {
+
+  background-color: var(--brown);
 }
