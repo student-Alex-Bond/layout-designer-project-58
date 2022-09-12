@@ -164,7 +164,8 @@ iframe {
 
 #ikea-effect,
 #premature-optimization,
-#distortion-of-novelty {
+#distortion-of-novelty,
+#hyperbolic-depreciation {
   padding: 100px 0;
 
   column-count: 2;
@@ -173,7 +174,8 @@ iframe {
 
 .ikea-effects-title,
 .premature-optimization-title,
-.distortion-of-novelty-title {
+.distortion-of-novelty-title,
+.hyperbolic-depreciation-title {
   padding-left: 16px;
 
   color: var(--white);
@@ -188,7 +190,8 @@ iframe {
 
 .ikea-effects-text,
 .premature-optimization-text,
-.distortion-of-novelty-text {
+.distortion-of-novelty-text,
+.hyperbolic-depreciation-text {
   margin-top: 0;
 
   font-size: 16px;
@@ -198,7 +201,8 @@ iframe {
 
 .ikea-effects-subtitle,
 .premature-optimization-subtitle,
-.distortion-of-novelty-subtitle {
+.distortion-of-novelty-subtitle,
+.hyperbolic-depreciation-subtitle {
   margin: 0;
 
   color: var(--translucent-dark);
@@ -213,7 +217,8 @@ iframe {
 
 .ikea-effects-inscription,
 .premature-optimization-inscription,
-.distortion-of-novelty-inscription {
+.distortion-of-novelty-inscription,
+.hyperbolic-depreciation-inscription {
   color: #2a2626;
   font-weight: 400;
   font-size: 60px;
@@ -221,20 +226,23 @@ iframe {
 }
 
 .ikea-effects-paragraph,
-.distortion-of-novelty-paragraph {
+.distortion-of-novelty-paragraph,
+.hyperbolic-depreciation-paragraph {
   font-weight: 400;
   font-size: 34px;
   font-family: Neucha, sans-serif;
 }
 
-.premature-optimization-title {
+.premature-optimization-title,
+.hyperbolic-depreciation-title {
 
   color: var(--brown);
 
   background-color: var(--white);
 }
 
-#premature-optimization {
+#premature-optimization,
+#hyperbolic-depreciation {
 
   background-color: var(--brown);
 }
