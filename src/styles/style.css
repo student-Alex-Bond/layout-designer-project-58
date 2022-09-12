@@ -165,7 +165,8 @@ iframe {
 #ikea-effect,
 #premature-optimization,
 #distortion-of-novelty,
-#hyperbolic-depreciation {
+#hyperbolic-depreciation,
+#errors-in-planning {
   padding: 100px 0;
 
   column-count: 2;
@@ -175,7 +176,8 @@ iframe {
 .ikea-effects-title,
 .premature-optimization-title,
 .distortion-of-novelty-title,
-.hyperbolic-depreciation-title {
+.hyperbolic-depreciation-title,
+.errors-in-planning-title {
   padding-left: 16px;
 
   color: var(--white);
@@ -191,7 +193,8 @@ iframe {
 .ikea-effects-text,
 .premature-optimization-text,
 .distortion-of-novelty-text,
-.hyperbolic-depreciation-text {
+.hyperbolic-depreciation-text,
+.errors-in-planning-text {
   margin-top: 0;
 
   font-size: 16px;
@@ -202,7 +205,8 @@ iframe {
 .ikea-effects-subtitle,
 .premature-optimization-subtitle,
 .distortion-of-novelty-subtitle,
-.hyperbolic-depreciation-subtitle {
+.hyperbolic-depreciation-subtitle,
+.errors-in-planning-subtitle {
   margin: 0;
 
   color: var(--translucent-dark);
@@ -218,7 +222,8 @@ iframe {
 .ikea-effects-inscription,
 .premature-optimization-inscription,
 .distortion-of-novelty-inscription,
-.hyperbolic-depreciation-inscription {
+.hyperbolic-depreciation-inscription,
+.errors-in-planning-inscription {
   color: #2a2626;
   font-weight: 400;
   font-size: 60px;
@@ -227,7 +232,8 @@ iframe {
 
 .ikea-effects-paragraph,
 .distortion-of-novelty-paragraph,
-.hyperbolic-depreciation-paragraph {
+.hyperbolic-depreciation-paragraph,
+.errors-in-planning-paragraph {
   font-weight: 400;
   font-size: 34px;
   font-family: Neucha, sans-serif;
