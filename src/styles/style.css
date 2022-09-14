@@ -309,7 +309,7 @@ iframe {
 .errors-in-planning-subtitle {
   margin: 0;
 
-  color: var(--translucent-dark);
+  color: var(--translucent-white);
   font-weight: 400;
   font-size: 24px;
   font-family: Neucha, sans-serif;
@@ -331,8 +331,9 @@ iframe {
 .ikea-effects-paragraph,
 .distortion-of-novelty-paragraph,
 .hyperbolic-depreciation-paragraph,
-.errors-in-planning-paragraph {
-  font-weight: 400;
+.errors-in-planning-paragraph,
+.premature-optimization-paragraph {
+   font-weight: 400;
   font-size: 34px;
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
@@ -350,6 +351,11 @@ iframe {
 #hyperbolic-depreciation {
 
   background-color: var(--brown);
+}
+.premature-optimization-paragraph,
+.premature-optimization-inscription,
+.premature-optimization-text {
+  color: white;
 }
 
 footer {
