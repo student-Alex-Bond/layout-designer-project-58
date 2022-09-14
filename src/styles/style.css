@@ -35,6 +35,8 @@ span {
 h1,
 h2,
 h3 {
+  margin: 0;
+
   font-family: Neucha, cursive;
   line-height: 1.2;
 }
@@ -51,7 +53,9 @@ h3 {
   font-size: 34px;
 }
 
-.container {
+header,
+section,
+footer {
   position: relative;
 
   width: 1110px;
@@ -79,11 +83,13 @@ body::before {
   position: absolute;
   top: 55px;
   right: -270px;
+
+  height: 525px;
 }
 
 ul {
   display: flex;
-  gap: 30px;
+  gap: 90px;
   padding: 0;
 
   list-style: none;
