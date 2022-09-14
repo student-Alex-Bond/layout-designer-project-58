@@ -247,7 +247,7 @@ iframe {
 
 .img-and-title {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 #ikea-effect,
@@ -271,8 +271,8 @@ iframe {
 .distortion-of-novelty-title,
 .hyperbolic-depreciation-title,
 .errors-in-planning-title {
-  margin-bottom: 25px;
-  padding: 5px 0 5px 10px;
+  margin-bottom: 20px;
+  padding: 5px 0 2px 10px;
 
   color: var(--white);
   font-weight: 700;
@@ -281,6 +281,11 @@ iframe {
   text-transform: uppercase;
 
   background-color: var(--brown);
+}
+
+.indent-left {
+  margin-right: 0;
+  margin-left: 30px;
 }
 
 .ikea-effects-wrapper {
