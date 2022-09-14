@@ -178,7 +178,7 @@ iframe {
   color: var(--dark);
 }
 
-.navigation-background::before {
+.background::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -228,15 +228,42 @@ iframe {
   color: var(--main);
 }
 
+.ikea-effects::before,
+.premature-optimization::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+
+  content: "";
+}
+
+.img-and-title {
+  display: flex;
+  margin-bottom: 100px;
+}
+
 #ikea-effect,
 #premature-optimization,
 #distortion-of-novelty,
 #hyperbolic-depreciation,
 #errors-in-planning {
-  padding: 100px 0;
+  position: relative;
 
-  column-count: 2;
-  column-gap: 30px;
+  background-color: var(--light);
+}
+
+.image-wrapper {
+  margin-right: 30px;
+
+  vertical-align: middle;
 }
 
 .ikea-effects-title,
@@ -244,16 +271,20 @@ iframe {
 .distortion-of-novelty-title,
 .hyperbolic-depreciation-title,
 .errors-in-planning-title {
-  padding-left: 16px;
+  margin-bottom: 25px;
+  padding: 5px 0 5px 10px;
 
   color: var(--white);
   font-weight: 700;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
-  text-align: left;
-  column-span: all;
+  text-transform: uppercase;
 
   background-color: var(--brown);
+}
+
+.ikea-effects-wrapper {
+  display: flex;
 }
 
 .ikea-effects-text,
@@ -261,11 +292,9 @@ iframe {
 .distortion-of-novelty-text,
 .hyperbolic-depreciation-text,
 .errors-in-planning-text {
-  margin-top: 0;
-
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  text-align: left;
+  flex: none;
+  width: 540px;
+  margin-right: 30px;
 }
 
 .ikea-effects-subtitle,
@@ -281,15 +310,13 @@ iframe {
   font-family: Neucha, sans-serif;
 }
 
-.column {
-  text-align: left;
-}
-
 .ikea-effects-inscription,
 .premature-optimization-inscription,
 .distortion-of-novelty-inscription,
 .hyperbolic-depreciation-inscription,
 .errors-in-planning-inscription {
+  margin-bottom: 30px;
+
   color: #2a2626;
   font-weight: 400;
   font-size: 60px;
@@ -303,6 +330,7 @@ iframe {
   font-weight: 400;
   font-size: 34px;
   font-family: Neucha, sans-serif;
+  line-height: 1.2em;
 }
 
 .premature-optimization-title,
