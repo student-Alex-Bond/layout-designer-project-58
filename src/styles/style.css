@@ -52,9 +52,7 @@ h3 {
   font-size: 34px;
 }
 
-.container,
-section,
-footer {
+.container {
   position: relative;
 
   width: 1110px;
@@ -124,19 +122,21 @@ li {
   background-color: var(--main);
 }
 
-main > section {
-  position: relative;
+.pre-video {
+  margin-bottom: -200px;
 
   text-align: center;
+}
 
-  background-color: var(--white);
+.pre-video-title {
+  margin-bottom: 30px;
 }
 
 iframe {
   position: relative;
-  bottom: -100px;
-
   z-index: 2;
+
+  margin-top: 30px;
 
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
