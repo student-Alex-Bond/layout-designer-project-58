@@ -99,6 +99,10 @@ li {
   width: 50%;
 }
 
+.header-title {
+  margin-bottom: 185px;
+}
+
 a {
   padding: 12px 24px;
 
