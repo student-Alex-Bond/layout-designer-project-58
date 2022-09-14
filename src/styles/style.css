@@ -116,6 +116,10 @@ li {
   margin-bottom: 30px;
 }
 
+.ikea-effects-img {
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
 iframe {
   position: relative;
   z-index: 2;
