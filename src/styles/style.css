@@ -1,9 +1,8 @@
 /** CSS STYLE **/
 
-.hello {
-  display: block;
-
-  color: #fff;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -19,14 +18,12 @@
 }
 
 body {
-  width: 1440px;
-  margin: 0 auto;
-  padding-left: 150px;
+  overflow-x: hidden;
 
-  color: #2a2626;
+  color: var(--dark);
   font-size: 16px;
-  font-family: "Noto Sans", sans-serif;
-  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5em;
 }
 
 span {
@@ -38,6 +35,7 @@ h2,
 h3 {
   margin: 0;
 
+  font-weight: 400;
   font-family: Neucha, cursive;
   line-height: 1.2;
 }
@@ -54,7 +52,7 @@ h3 {
   font-size: 34px;
 }
 
-header,
+.container,
 section,
 footer {
   position: relative;
@@ -64,16 +62,16 @@ footer {
   padding: 100px 0;
 }
 
-body::before {
+header::before {
   position: absolute;
   top: 0;
   left: 0;
 
-  width: 100vw;
+  width: 100%;
   height: 100%;
 
   background-image: url("images/background.png");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
 
@@ -90,7 +88,7 @@ body::before {
 
 ul {
   display: flex;
-  gap: 90px;
+  gap: 30px;
   padding: 0;
 
   list-style: none;
@@ -104,12 +102,14 @@ li {
   margin-bottom: 185px;
 }
 
-a {
+.header-button {
+  width: 100px;
+  margin-top: 5px;
   padding: 12px 24px;
 
   color: var(--white);
-
   font-weight: bold;
+  text-align: center;
   text-decoration: none;
 
   background-color: var(--main);
